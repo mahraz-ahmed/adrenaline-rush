@@ -4,7 +4,7 @@
 **The Vision**: Uniting the concept of a high-speed arcade racer with a realistic sim racer.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/55454899-40b0-4b43-9d62-5d1a4c0ce96d" width="100%" alt="Adrenaline Rush Hero Video"/>
+  <img src="https://github.com/user-attachments/assets/55454899-40b0-4b43-9d62-5d1a4c0ce96d" width="90%" alt="Adrenaline Rush Hero Video"/>
 </p>
 
 ---
