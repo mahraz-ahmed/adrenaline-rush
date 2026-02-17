@@ -8,7 +8,6 @@
   <img src="https://github.com/user-attachments/assets/78eaabae-a717-4368-bbee-f08181a83df5" width="90%" alt="Adrenaline Rush Hero Video"/>
 </p>
 
-
 ## Key Features
 
 ### Intelligent AI Pathfinding With Avoidance
@@ -22,14 +21,15 @@
   <img src="https://github.com/user-attachments/assets/cfc60dca-72d3-4061-ad1d-29fa465c9f40" width="90%" alt="AI Demo"/>
 </p>
 
+### Advanced Game Management
 
-### Physics-Based Handling
+* **Race Manager:** Supervises and coordinates the full game loop from the difficulty selection, to the countdown, to ending the race and rewarding the player, ensuring game integrity.
+* **Total Progress Algorithm:** Calculates precise vehicle ranking by factoring in total completed laps, current waypoint index, and normalised distance to the next node.
+* **Dynamic Standings Sorting:** Utilizes C# LINQ to sort all active vehicles by total progress, ensuring the HUD position counter is accurate during high-speed, neck-and-neck racing.
 
-* **Dynamic Steering:** Steering angles are calculated via **Linear Interpolation (Lerp)**, reducing sensitivity at high speeds to simulate realistic vehicle weight and stability.
-* **Suspension & Friction:** Fully modelled suspension via `WheelColliders` for realistic weight transfer during corners and drifting.
-* **Procedural Audio:** Engine audio pitch is dynamically adjusted in real-time based on the vehicle's linear velocity.
-
-> **[PLACEHOLDER: Physics_Handling.gif]**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5997ff96-a23e-4561-962a-0a8a7524a8ac" width="90%" alt="Countdown"/>
+</p>
 
 ### Tactical Power-Ups & Combat
 
@@ -37,7 +37,9 @@
 * **Combat Disruptors:** Missiles and EMPs physically impact AI opponents, freezing their recovery logic to provide a tactical advantage.
 * **Feedback System:** High-impact visual feedback through world-space UI and active projectile tracking.
 
-> **[PLACEHOLDER: Combat_System.gif]**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/07bd9518-2647-4637-a20d-b12f993e3efe" width="90%" alt="Missile"/>
+</p>
 
 ### Upgrades & Progression
 
