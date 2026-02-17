@@ -17,7 +17,9 @@
 * **Recovery Logic:** Integrated "Still-Detection" and teleportation systems to ensure AI agents recover from crashes automatically.
 * **Adaptive Difficulty:** Dynamic scaling of AI motor force and steering deviations based on user-selected difficulty level (Easy, Medium, Hard).
 
-> **[PLACEHOLDER: AI_Avoidance.gif]**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/97108552-c8d1-4fec-8ec7-cf84139c18bc" width="90%" alt="AI Demo"/>
+</p>
 
 ### Physics-Based Handling
 
@@ -43,7 +45,6 @@
 
 > **[PLACEHOLDER: Garage_Economy.gif]**
 
----
 
 ## Technical Architecture (OOP Focus)
 
@@ -54,7 +55,6 @@ This project emphasizes clean, modular C# code following core OOP principles:
 * **Polymorphic Logic:** Utilized **Enums and Switch-case structures** in `PowerUpManager.cs` to manage diverse combat behaviors through a unified activation interface.
 * **Decoupled Systems:** Heavy use of specialized managers for Power-Ups, Race state, Camera views, and UI to ensure a high degree of modularity.
 
----
 
 ## Project Structure
 
@@ -62,7 +62,6 @@ This project emphasizes clean, modular C# code following core OOP principles:
 * **`Packages/`**: Essential manifest files defining project dependencies.
 * **`ProjectSettings/`**: Global configurations, including custom tags (`AI`, `Car`, `BRAKE`) and Input System bindings.
 
----
 
 ## How to Run Locally
 
