@@ -1,10 +1,11 @@
 # Adrenaline Rush
 
 3D racing game developed in Unity/C#, featuring an **Object-Oriented Programming** architecture, AI agents with spatial awareness, physics-driven vehicle handling, and a persistent upgrade economy.
+**The Vision**: Uniting the concept of a high-speed arcade racer with a realistic sim racer.
 
-> **The Vision**: Uniting the concept of a high-speed arcade racer with a realistic sim racer.
-
-![Adobe Express - Video Project](https://github.com/user-attachments/assets/55454899-40b0-4b43-9d62-5d1a4c0ce96d)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/55454899-40b0-4b43-9d62-5d1a4c0ce96d" width="110%" alt="Adrenaline Rush Hero Video"/>
+</p>
 
 ---
 
