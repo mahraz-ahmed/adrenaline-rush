@@ -8,6 +8,7 @@
   <img src="https://github.com/user-attachments/assets/78eaabae-a717-4368-bbee-f08181a83df5" width="90%" alt="Adrenaline Rush Hero Video"/>
 </p>
 
+
 ## Key Features
 
 ### Intelligent AI Pathfinding With Avoidance
@@ -47,7 +48,9 @@
 * **Persistent Economy:** Rewards and race history (date, position, time) are serialized via **JSON** and saved using **PlayerPrefs**.
 * **Global Configuration:** Persistent user settings for Audio Mixer volumes, graphics quality, and dynamic UI scaling.
 
-> **[PLACEHOLDER: Garage_Economy.gif]**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/23760fe2-da08-4fd6-b371-dafa4775c717" width="90%" alt="Progression"/>
+</p>
 
 
 ## Technical Architecture (OOP Focus)
@@ -55,9 +58,9 @@
 This project emphasizes clean, modular C# code following core OOP principles:
 
 * **Encapsulation:** Controlled data access in `GarageManager.cs`, `OptionsManager.cs`, and `RaceProgress.cs`, protecting player state and preferences from external corruption.
-* **Abstraction:** The `PosManager.cs` simplifies complex race ranking math into a single "Position" value for the UI, while `AIController.cs` hides complex navigation math from the engine.
-* **Polymorphic Logic:** Utilized **Enums and Switch-case structures** in `PowerUpManager.cs` to manage diverse combat behaviors through a unified activation interface.
-* **Decoupled Systems:** Heavy use of specialized managers for Power-Ups, Race state, Camera views, and UI to ensure a high degree of modularity.
+* **Abstraction:** The `PosManager.cs` simplifies complex race ranking maths into a single "Position" value for the UI, while `AIController.cs` hides complex navigation math from the engine.
+* **Polymorphic Logic:** Utilized **Enums and Switch-case structures** in `PowerUpManager.cs` to manage diverse combat behaviour through a unified activation interface.
+* **Decoupled Systems:** Heavy use of specialised managers for power-Ups, race state, camera views, and UI to ensure a high degree of modularity.
 
 
 ## Project Structure
