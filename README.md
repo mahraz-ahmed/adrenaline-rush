@@ -18,10 +18,8 @@
 * **Adaptive Difficulty:** Dynamic scaling of AI motor force and steering deviations based on user-selected difficulty level (Easy, Medium, Hard).
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/97108552-c8d1-4fec-8ec7-cf84139c18bc" width="90%" alt="AI Demo"/>
+  <img src="https://github.com/user-attachments/assets/cfc60dca-72d3-4061-ad1d-29fa465c9f40" width="90%" alt="AI Demo"/>
 </p>
-
-![VideoProject1-ezgif com-optimize](https://github.com/user-attachments/assets/cfc60dca-72d3-4061-ad1d-29fa465c9f40)
 
 
 ### Physics-Based Handling
