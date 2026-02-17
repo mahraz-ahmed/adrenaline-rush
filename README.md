@@ -24,9 +24,9 @@
 
 ### Advanced Game Management
 
-* **Race Manager:** Supervises and coordinates the full game loop from the difficulty selection, to the countdown, to ending the race and rewarding the player, ensuring game integrity.
+* **Race Manager:** Supervises and coordinates the full game loop from the difficulty selection, to the countdown, to the race termination and awards, ensuring game integrity.
 * **Total Progress Algorithm:** Calculates precise vehicle ranking by factoring in total completed laps, current waypoint index, and normalised distance to the next node.
-* **Dynamic Standings Sorting:** Utilizes C# LINQ to sort all active vehicles by total progress, ensuring the HUD position counter is accurate during high-speed, neck-and-neck racing.
+* **Dynamic Standings Sorting:** Utilises C# LINQ to sort all active vehicles by total progress, ensuring the HUD position counter is accurate during high-speed, neck-and-neck racing.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5997ff96-a23e-4561-962a-0a8a7524a8ac" width="90%" alt="Countdown"/>
@@ -45,7 +45,7 @@
 ### Upgrades & Progression
 
 * **Garage System:** A persistent shop where players can buy and equip new vehicles with unique paint jobs using earned race currency.
-* **Persistent Economy:** Rewards and race history (date, position, time) are serialized via **JSON** and saved using **PlayerPrefs**.
+* **Persistent Economy:** Rewards and race history (date, position, time) are serialised via **JSON** and saved using **PlayerPrefs**.
 * **Global Configuration:** Persistent user settings for Audio Mixer volumes, graphics quality, and dynamic UI scaling.
 
 <p align="center">
@@ -59,8 +59,8 @@ This project emphasizes clean, modular C# code following core OOP principles:
 
 * **Encapsulation:** Controlled data access in `GarageManager.cs`, `OptionsManager.cs`, and `RaceProgress.cs`, protecting player state and preferences from external corruption.
 * **Abstraction:** The `PosManager.cs` simplifies complex race ranking maths into a single "Position" value for the UI, while `AIController.cs` hides complex navigation math from the engine.
-* **Polymorphic Logic:** Utilized **Enums and Switch-case structures** in `PowerUpManager.cs` to manage diverse combat behaviour through a unified activation interface.
-* **Decoupled Systems:** Heavy use of specialised managers for power-Ups, race state, camera views, and UI to ensure a high degree of modularity.
+* **Polymorphic Logic:** Utilized **enums and switch-case structures** in `PowerUpManager.cs` to manage diverse combat behaviour through a unified activation interface.
+* **Decoupled Systems:** Heavy use of specialised managers for power-ups, race state, camera views, and UI to ensure a high degree of modularity.
 
 
 ## Project Structure
