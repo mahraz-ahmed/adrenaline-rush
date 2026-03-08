@@ -3,6 +3,7 @@
 3D racing game developed in Unity/C#, featuring an **Object-Oriented Programming** architecture, AI agents with spatial awareness, physics-driven vehicle handling, and a persistent upgrade economy.
 
 **The Vision**: Uniting the concept of a high-speed arcade racer with a realistic sim racer.
+
 NOTE: Please wait for GIFs to load.
 
 <p align="center">
